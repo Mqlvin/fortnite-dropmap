@@ -29,7 +29,7 @@ def center_image_coordinates(img_size, point):
 
 image = Image.open("./map.jpg")
 draw = ImageDraw.Draw(image)
-font = ImageFont.truetype('./Akt-Normal.ttf', 24)
+font = ImageFont.truetype('./assets/font.ttf', 24)
 map_scale = int(image.size[0] / 500)
 offset_fix = 5 * map_scale
 
@@ -69,9 +69,9 @@ for idx, i in enumerate(target_tuples):
     y_min = min(y_min, transformed_point[1])
     y_max = max(y_max, transformed_point[1])
 
-    image.paste(Image.open("./marker.jpg"), center_image_coordinates(72, transformed_point))
+    image.paste(Image.open("./assets/marker.jpg"), center_image_coordinates(72, transformed_point))
 
-image.paste(ImageEnhance.Brightness(Image.open("./marker.jpg")).enhance(0.0), center_image_coordinates(72, tup_point_transform((target_x, target_y), map_scale, (2, 4))))
+image.paste(ImageEnhance.Brightness(Image.open("./assets/marker.jpg")).enhance(0.0), center_image_coordinates(72, tup_point_transform((target_x, target_y), map_scale, (2, 4))))
 
 x_min -= bound
 x_max += bound
