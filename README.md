@@ -12,7 +12,7 @@ There are optional configurables in the `downloader.py` file, such as map zoom (
 <br>
 Once configured, run `python downloader.py`.<br>
 It will create a folder called `./dl-out` with a lot of images.<br>
-<br><br>
+<br>
 Next, you will want to stitch the images together into a single big image.<br>
 To do this, run `python stitcher.py`.<br>
 It will create an image called `map.jpg`.<br>
