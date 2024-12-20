@@ -36,7 +36,7 @@ It has a few features:
 - The black box which is probably somewhere near the middle is your drop target.
 
 Here is an example of a generated dropmap below:
-![Example dropmap image](https://raw.githubusercontent.com/Mqlvin/fortnite-dropmap/refs/heads/master/marked.jpg)
+![Example dropmap image](https://i.imgur.com/XudJNtP.jpeg)
 
 
 ## Licensing and Credits
