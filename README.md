@@ -1,5 +1,5 @@
 # Fortnite Dropmap Generator
-A free-to-use Fortinte drop map generator, using the [landingtutorial.com](https://landingtutorial.com) API to generate drops, and the [fortnite.gg](https://fortnite.gg) website to download the visuals.
+A free-to-use Fortnite drop map generator, using the [landingtutorial.com](https://landingtutorial.com) API to generate drops, and the [fortnite.gg](https://fortnite.gg) website to download the visuals.
 
 ## Prerequisites
 You will need Python's `pillow` library. Install this appropriately, for example `pip3 install pillow` or `pacman -Sy python-pillow`
