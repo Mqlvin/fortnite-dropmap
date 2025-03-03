@@ -3,7 +3,7 @@ A free-to-use Fortnite drop map generator, using the [landingtutorial.com](https
 ###### *I'll be honest this isn't the easiest dropmap generator to use - sorry to those who are finding this from Google. If you have any problems, contact me on Matrix (`mqlvin@nope.chat`) or Discord (`@mqlvin`). You can also create an issue on GitHub if you'd like.*
 
 ## Prerequisites
-You will need Python's `pillow` library. Install this appropriately, for example `pip3 install pillow` or `pacman -Sy python-pillow`
+You will need Python's `pillow` and `requests` library. Install this appropriately, for example `pip3 install pillow`, `pip3 install requests` or `pacman -Sy python-pillow` etc
 
 ## How to use
 ### Generating the map image
