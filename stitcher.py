@@ -39,3 +39,5 @@ def stitch(path_list: list[str]):
 
 output_image = stitch(files)
 output_image.save("map.jpg", "JPEG")
+
+print("Good job!\nThere should be a file called map.jpg in this directory.\nNow, edit `plotter.py`'s target_x and target_y values to where you want to drop.\nThen, run `python plotter.py`")
