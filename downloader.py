@@ -1,7 +1,6 @@
 import concurrent.futures
 import pathlib
 import time
-from os import wait
 
 import requests
 
@@ -27,7 +26,7 @@ save_dir = "./dl-out"
 pathlib.Path(save_dir).mkdir(exist_ok=True)
 
 zoom_level = 5
-map_id = "33.01"
+map_id = "34.02"
 
 base_url = f"https://fortnite.gg/maps/{map_id}/{zoom_level}/"
 
@@ -46,3 +45,4 @@ with concurrent.futures.ThreadPoolExecutor() as executor:
 
     executor.shutdown(wait=True)
 
+print("Good job!\nYou should have a new folder called `dl-out/`.\nNow run python stitcher.py")
